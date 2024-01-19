@@ -10,21 +10,38 @@
     <link rel="stylesheet" href="./src/styles/reset.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <div class="container">
         <header>
             <h2>Piano Virtual</h2>
+
             <div class="column volume-slider">
                 <span>Volume</span>
-                <input type="range" min="0" max="1" value="0.5" step="any"></div>
-            <div class="column keys-check">
-                <span>Teclas</span>
-                <input type="checkbox" checked>
+                <input type="range" min="0" max="1" value="0.5" step="any">
             </div>
+
+            <div>
+
+                <div class="column keys-check">
+                    <span>Teclas</span>
+                    <input type="checkbox" checked>
+                </div>
+                
+                <div class="column">
+                    <span>Fundo Musical</span>
+                    <audio id="audioFundo" controls>
+                        <source src="./src/audios/motivation.wav" type="audio/mp3">
+                        Seu navegador não suporta HTML5
+                    </audio>
+                </div>
+                
+
+            </div>
+
         </header>
 
         <ul class="piano-keys">
@@ -47,6 +64,7 @@
             <li class="key white" data-key=";"><span>;</span></li>
         </ul>
     </div>
+
 
 
 

@@ -71,6 +71,10 @@ header .column span {
     background-color: #fff;
 }
 
+#audioFundo{
+    width: 100px;
+}
+
 .piano-keys {
     display: flex;
     margin-top: 40px;
