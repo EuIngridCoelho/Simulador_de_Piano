@@ -1,6 +1,8 @@
 # Simulador de Piano
 
 
+[![piano-virtual.png](https://i.postimg.cc/zXPDnmnt/piano-virtual.png)](https://euingridsouza.github.io/Simulador_de_Piano/)
+[Ver projeto](https://euingridsouza.github.io/Simulador_de_Piano/)
 
 
 ## 🎯Objetivo:
